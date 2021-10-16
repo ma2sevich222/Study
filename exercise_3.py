@@ -15,8 +15,8 @@ def ConquestCampaign(N:int,M:int,L:int,batalion:[int])->int:
   i=0
   bat_mat=[]
   while i<len(batalion):
-    bat_mat.append(batalion[i:i+L])
-    i+=L
+    bat_mat.append(batalion[i:i+2])
+    i+=2
   
   for indexN, item in enumerate(enemy_terra):
     for indexM,el in enumerate(item):
