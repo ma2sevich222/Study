@@ -28,7 +28,7 @@ def PatternUnlock(N,hits):
       distance+=round(dist,5)
   
   replace=".0"
-  str_distance=str(round(distance+0.00001,5))
+  str_distance=str(distance)
   for char in replace:
     str_distance = str_distance.replace(char, "")
   
