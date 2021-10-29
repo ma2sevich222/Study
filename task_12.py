@@ -17,7 +17,7 @@ def MassVote(N,Votes):
   Viner_list=[i for i, j in enumerate(votes_per) if j == viner]
 
   if len(Viner_list)>1:
-    result='"no winner"'
+    result='no winner'
 
   else:
 
