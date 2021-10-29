@@ -21,7 +21,7 @@ def MassVote(N,Votes):
 
   else:
 
-    if votes_per[Viner_list[0]]>=barrier:
+    if votes_per[Viner_list[0]]>barrier:
       result='majority winner '+ (str(Viner_list[0]+1))
 
     else:
