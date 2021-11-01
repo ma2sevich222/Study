@@ -19,7 +19,7 @@ def Unmanned(L,N,track):
   time=0
 
 
-  for i in range (L):
+  for i in range (1,L+1):
     
     
     time+=1
