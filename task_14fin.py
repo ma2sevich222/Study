@@ -45,7 +45,7 @@ def Unmanned(L,N,track):
       if sost1[key][0]==0 and sost1[key][1]>0:
         sost1[key][1]-=1
 
-      if i==key and sost1[key][0]>0:
+      if i==key and sost1[key][0]>=0:
         time+= sost1[key][0]
 
       
